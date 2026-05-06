@@ -16,7 +16,7 @@
 let myDate = new Date();
 let myDay = myDate.getDay();
 let today = " ";
-
+let coffee 
 switch(myDay){
 
  	case 0:
