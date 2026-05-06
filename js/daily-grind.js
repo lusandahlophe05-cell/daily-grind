@@ -16,4 +16,4 @@ switch(myDay){
     	today = "Something went wrong!";
 
 }
-
+alert(today);
