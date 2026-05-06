@@ -31,7 +31,7 @@ switch(myDay){
             alt:"A pic of a yummy bubble tea.",
             color:"pink",
             day:"Tuesday",
-            desc:`I like some yummy bubble tea`
+            desc:`I like bubble tea`
             
 
         };
