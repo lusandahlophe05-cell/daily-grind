@@ -16,7 +16,6 @@
 let myDate = new Date();
 let myDay = myDate.getDay();
 let today = " ";
-let coffee 
 switch(myDay){
 
  	case 0:
@@ -36,17 +35,21 @@ switch(myDay){
 
         };
  	break;
-console.log(coffee);
- 	default:
-    	today = "Something went wrong!";
 
-}
+ 	default:
+    	today = "Something went wrong!";}
+console.log(coffee);
+document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee)
 alert(today);
 function coffeeTemplate(coffee){
     let myReturn = "";
 
     myReturn += `
-   <h2>HTML GOES HERE</h2>
+   <p>
+<img src="images/${coffee.pic}" alt="${coffee.alt}" id="coffee">
+   <strong>${coffee.day}Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong>${coffee.name}</strong> ${coffee.desc}
+ </p>
+
     `;
 
     return myReturn;
