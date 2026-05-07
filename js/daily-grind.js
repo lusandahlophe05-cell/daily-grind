@@ -43,6 +43,7 @@ switch(myDay){
             day:"Tuesday",
             desc:`I like bubble tea`
             };
+    break;
     case 4:
          today = "Thursday";
         coffee = {
@@ -53,6 +54,7 @@ switch(myDay){
             day:"Thursday",
             desc:`I like cramel latte`
         };
+    break;
  	default:
     	today = "Something went wrong!";}
 console.log(coffee);
