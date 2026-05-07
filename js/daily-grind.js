@@ -26,7 +26,7 @@ switch(myDay){
    	    today = "Tuesday";
         coffee = {
             name:"Bubble Tea",
-            Pic:"bubble-tea.jpg",
+            pic:"bubble-tea.jpg",
             alt:"A pic of a yummy bubble tea.",
             color:"pink",
             day:"Tuesday",
@@ -37,7 +37,7 @@ switch(myDay){
         today = "Wedensday"
         coffee = {
             name:"Bubble Tea",
-            Pic:"bubble-tea.jpg",
+            pic:"bubble-tea.jpg",
             alt:"A pic of a yummy bubble tea.",
             color:"pink",
             day:"Tuesday",
@@ -48,7 +48,7 @@ switch(myDay){
          today = "Thursday";
         coffee = {
             name:"Caramel Latte",
-            Pic:"caramel-latte.jpg",
+            pic:"caramel-latte.jpg",
             alt:"A pic of a yummy caremal latte.",
             color:"Green",
             day:"Thursday",
