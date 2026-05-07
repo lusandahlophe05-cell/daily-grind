@@ -31,15 +31,34 @@ switch(myDay){
             color:"pink",
             day:"Tuesday",
             desc:`I like bubble tea`
-            
-
         };
  	break;
-
+    case 3:
+        today = "Wedensday"
+        coffee = {
+            name:"Bubble Tea",
+            Pic:"bubble-tea.jpg",
+            alt:"A pic of a yummy bubble tea.",
+            color:"pink",
+            day:"Tuesday",
+            desc:`I like bubble tea`
+            };
+    case 4:
+         today = "Thursday";
+        coffee = {
+            name:"Caramel Latte",
+            Pic:"caramel-latte.jpg",
+            alt:"A pic of a yummy caremal latte.",
+            color:"Green",
+            day:"Thursday",
+            desc:`I like cramel latte`
+        };
  	default:
     	today = "Something went wrong!";}
 console.log(coffee);
+// adds coffee to page
 document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee)
+
 alert(today);
 function coffeeTemplate(coffee){
     let myReturn = "";
