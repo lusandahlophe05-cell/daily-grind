@@ -50,7 +50,7 @@ switch(myDay){
             name:"Caramel Latte",
             pic:"caramel-latte.jpg",
             alt:"A pic of a yummy caremal latte.",
-            color:"Green",
+            color:"green",
             day:"Thursday",
             desc:`I like cramel latte`
         };
