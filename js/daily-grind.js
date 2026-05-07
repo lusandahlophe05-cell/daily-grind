@@ -20,15 +20,32 @@ switch(myDay){
 
  	case 0:
     	today =  "Sunday";
+        coffee = {
+            name:"soft cream",
+            pic:"soft-cream.jfif",
+            alt:"A pic of a yummy bubble tea.",
+            color:"#F5F0E8",
+            day:"Sunday",
+            desc:`I like bubble tea`
+        };
  	break;
+    case 1:
+    	today =  "Monday",
+        coffee = {
+            name:" Deep Espresso Brown ",
+            pic:" deep-espresso-brown.jfif",
+            alt:"A pic of a yummy bubble tea.",
+            color:"#3B1F0A",
+            day:"Monday",
+            desc:`I like bubble tea`
 
  	case 2:
-   	    today = "Tuesday";
+   	    today = "Tuesday"
         coffee = {
-            name:"Bubble Tea",
-            pic:"bubble-tea.jpg",
+            name:"warm cappuccino",
+            pic:"warm cappuccino.jfif",
             alt:"A pic of a yummy bubble tea.",
-            color:"pink",
+            color:"#C68642",
             day:"Tuesday",
             desc:`I like bubble tea`
         };
@@ -36,30 +53,52 @@ switch(myDay){
     case 3:
         today = "Wedensday"
         coffee = {
-            name:"Bubble Tea",
-            pic:"bubble-tea.jpg",
+            name:"caramel gold",
+            pic:"caramel-gold.jfif",
             alt:"A pic of a yummy bubble tea.",
-            color:"pink",
-            day:"Tuesday",
+            color:"#D4A017",
+            day:"Wedensday",
             desc:`I like bubble tea`
             };
     break;
     case 4:
-         today = "Thursday";
+         today = "Thursday",
         coffee = {
-            name:"Caramel Latte",
-            pic:"caramel-latte.jpg",
+            name:"dark cold brew",
+            pic:"dark-cold-brew.jfif",
             alt:"A pic of a yummy caremal latte.",
-            color:"green",
+            color:"#1C1C1C",
             day:"Thursday",
             desc:`I like cramel latte`
+        };
+    break;
+    case 5:
+         today = "Friday",
+        coffee = {
+            name:"rich chocolate",
+            pic:"rich-chocolate.jfif",
+            alt:"A pic of a yummy cold Brew",
+            color:"#4B2E2E",
+            day:"Friday",
+            desc:`I like cold Brew`
+        };
+    break;
+    case 6:
+         today = "Saturday",
+        coffee = {
+            name:"icy blended",
+            pic:"icy blended.jfif",
+            alt:"A pic of a yummy cold Brew",
+            color:"#A8D8EA",
+            day:"Saturday",
+            desc:`I like cold Brew`
         };
     break;
  	default:
     	today = "Something went wrong!";}
 console.log(coffee);
 // adds coffee to page
-document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee)
+document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
     //Change background color of HTML element
 document.querySelector("html").style.backgroundColor = coffee.color;
 
