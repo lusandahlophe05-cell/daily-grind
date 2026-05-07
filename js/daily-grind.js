@@ -42,7 +42,7 @@ switch(myDay){
             desc:`Monday's special is our bold and powerful Espresso. We know
                   Mondays are tough, so let this strong little shot get you through the day!`
         };
-
+    break;
  	case 2:
    	    today = "Tuesday"
         coffee = {
