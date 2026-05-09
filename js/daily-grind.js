@@ -75,13 +75,13 @@ switch(myDay){
         };
  	break;
     case 3:
-        today = "Wedensday"
+        today = "Wednesday"
         coffee = {
             name:"caramel gold",
             pic:"caramel-gold.jfif",
             alt:"A sweet Caramel Macchiato to beat the Wednesday slump",
             color:"#D4A017",
-            day:"Wedensday",
+            day:"Wednesday",
             desc:`Wednesday's special is our indulgent Caramel Macchiato. Hump day 
                   deserves something sweet — layers of vanilla, espresso and caramel
                    to keep you going!`
@@ -129,7 +129,7 @@ switch(myDay){
     	today = "Something went wrong!";}
 
 // adds coffee to page
-document.getElementById("coffee-cup").innerHTML = coffeeTemplate("coffee");
+document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
     //Change background color of HTML element
 document.querySelector("html").style.backgroundColor = coffee.color;
 
@@ -146,7 +146,7 @@ function coffeeTemplate(coffee){
     myReturn += `
    <p>
 <img src="images/${coffee.pic}" alt="${coffee.alt}" id="coffee">
-   <strong>${coffee.day}Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong>${coffee.name}</strong> ${coffee.desc}
+   <strong>${coffee.day} Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong>${coffee.name}</strong> ${coffee.desc}
  </p>
 
     `;
