@@ -25,9 +25,11 @@ const queryString = window.location.search;
     
 //separate query string parameters
 const urlParams = new URLSearchParams(queryString);
+
+
       //retrieve data from querystring
-    if(urlParams.get("day")){        
-    myDay = urlParams.get("day")
+    if(urlParams.has("day")){        
+           myDay = urlParams.get("day")
     }
 
 
