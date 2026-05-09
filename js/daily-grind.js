@@ -21,11 +21,17 @@ let today = " ";
 const queryString = window.location.search;
     
 //output to console    
-console.log(queryString);
+//console.log(queryString);
     
 //separate query string parameters
 const urlParams = new URLSearchParams(queryString);
+      //retrieve data from querystring
+    if(urlParams.get("day")){        
+    myDay = urlParams.get("day");
+    }
 
+
+    
 switch(myDay){
 
  	case 0:
@@ -118,7 +124,7 @@ switch(myDay){
     break;
  	default:
     	today = "Something went wrong!";}
-console.log(coffee);
+
 // adds coffee to page
 document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
     //Change background color of HTML element
