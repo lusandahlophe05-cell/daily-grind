@@ -126,7 +126,7 @@ switch(myDay){
     	today = "Something went wrong!";}
 
 // adds coffee to page
-document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
+document.getElementById("coffee-cup").innerHTML = coffeeTemplate("coffee");
     //Change background color of HTML element
 document.querySelector("html").style.backgroundColor = coffee.color;
 
