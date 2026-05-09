@@ -139,7 +139,7 @@ document.querySelectorAll("#coffee-cup strong").forEach(el => {
 });
 
 
-alert(today);
+
 function coffeeTemplate(coffee){
     let myReturn = "";
 
