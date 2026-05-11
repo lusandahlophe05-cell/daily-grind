@@ -104,7 +104,7 @@ switch(myDay){
          today = "Friday",
         coffee = {
             name:"rich chocolate",
-            pic:"rich-chocolate.jfif",
+            pic:"rich chocolate.jfif",
             alt:"A rich Mocha to celebrate Friday",
             color:"#4B2E2E",
             day:"Friday",
