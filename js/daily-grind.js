@@ -43,7 +43,7 @@ switch(myDay){
             name:"soft cream",
             pic:"soft-cream.jfif",
             alt:"A creamy Vanilla Latte, the perfect relaxing Sunday treat",
-            color:"#F5F0E8",
+            color:"#C495AB",
             day:"Sunday",
             desc:`Sunday's special is our smooth and creamy Vanilla Latte. There's
                   no better way to ease into a lazy Sunday than with this sweet
