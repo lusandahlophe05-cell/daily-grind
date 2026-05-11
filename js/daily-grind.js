@@ -153,6 +153,4 @@ function coffeeTemplate(coffee){
 
     return myReturn;
 }
-document.getElementById("hamburger").addEventListener("click",function(){
-    document.querySelector("nal ul").classList.toggle("open");
-})
+
